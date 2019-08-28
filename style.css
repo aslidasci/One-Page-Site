@@ -1,0 +1,398 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* nav kısmı css kodları */
+
+#nav-container {
+    background-color: #2C3E50;
+    height: 100px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#nav-inner {
+    height: 100px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#logo {
+    float: left;
+    font-size: 2em;
+    margin: 30px 10px;
+}
+
+#nav-menu {
+    float: right;
+    margin: 40px 10px;
+
+}
+
+#nav-inner a {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#nav-menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 12px;
+
+}
+
+#nav-menu li a {
+    letter-spacing: 1px;
+}
+
+#nav-menu li a:hover {
+    color: #18BC9C;
+}
+
+.clear {
+    clear: both;
+}
+
+/*header kısmı css kodları */
+
+#header {
+    background-color: #18BC9C;
+    text-align: center;
+    color: #fff;
+}
+
+#header .container {
+
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#header h1 {
+    font-size: 3.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.starline {
+    margin-top: 20px;
+    border: none;
+    border-top: solid 5px;
+    max-width: 250px;
+}
+
+#header-inner i {
+    position: relative;
+    top: -35px;
+    left: 325px;
+    font-size: 35px;
+    padding: 8px;
+    background-color: #18BC9C;
+}
+
+#header span {
+    font-size: 25px;
+}
+
+/* Content kısmı css kodları*/
+#content {
+    height: 780px;
+
+}
+
+#content-inner {
+    margin-top: 75px;
+
+}
+
+#content-inner h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 2.25rem;
+    color: #2C3E50;
+
+}
+
+#content-inner hr {
+    border-top-color: #2C3E50;
+}
+
+#content-inner i {
+    color: #2C3E50;
+    position: relative;
+    top: -35px;
+    left: 565px;
+    font-size: 35px;
+    padding: 8px;
+    background-color: #fff;
+
+}
+
+.box {
+    width: 350px;
+    height: 250px;
+    background-color: #27B096;
+    display: inline-block;
+    margin: 15px;
+}
+
+#boxes {
+    margin: auto;
+}
+
+.box:hover {
+    opacity: 0.5;
+    color: #27B096;
+}
+
+/*About kısmı css kodları*/
+#about {
+    background-color: #18BC9C;
+    height: 650px;
+
+}
+
+#about-inner {
+    height: 500px;
+    position: relative;
+    top: 100px;
+
+}
+
+#about-inner h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 2.25rem;
+    color: #fff;
+    margin-bottom: 40px;
+
+}
+
+#about-inner hr {
+    border-top-color: #fff;
+}
+
+#about-inner i {
+    color: #fff;
+    position: relative;
+    top: -35px;
+    left: 565px;
+    font-size: 35px;
+    padding: 8px;
+    background-color: #18bc9c;
+
+}
+#about-inner p {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+
+}
+
+#about-inner .paragraf {
+    width: 300px;
+    height: 250px;
+    float: left;
+    padding-right: 30px;
+}
+
+#paragrafortala {
+    margin-left: 280px;
+}
+
+#buton {
+    border: 2px solid #fff;
+    background-color: #18bc9c;
+    padding: 15px;
+    color: #fff;
+    display: block;
+    width: 220px;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    border-radius: 5px;
+    position: relative;
+    top: 250px;
+    right: 450px;
+}
+
+/*Contact kısmı css kodları */
+
+#contact {
+    height: 740px;
+}
+
+#contact-inner {
+    background-color: white;
+    height: 640px;
+    position: relative;
+    top: 100px;
+}
+
+#contact-inner h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 2.25rem;
+    color: #2C3E50;
+    margin-bottom: 40px;
+
+}
+
+#contact-inner hr {
+    border-top-color: #2C3E50;
+}
+
+#contact-inner i {
+    color: #2C3E50;
+    position: relative;
+    top: -35px;
+    left: 565px;
+    font-size: 35px;
+    padding: 8px;
+    background-color: #fff;
+
+}
+
+form {
+    margin-left: 250px;
+    text-decoration: none;
+}
+
+
+form input {
+    display: block;
+    width: 730px;
+    height: 87px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6C757D;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+
+}
+
+form #message {
+    height: 120px;
+    display: inline-block;
+    text-align: left;
+}
+
+#buton2 {
+    background-color: #18bc9c;
+    padding: 15px;
+    color: #fff;
+    display: block;
+    width: 100px;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    border-radius: 5px;
+    position: relative;
+    left: 250px;
+}
+
+#buton2:hover {
+    background-color: #128F76;
+
+
+}
+
+/* location kısmı css kodları*/
+
+#location {
+    height: 300px;
+    background-color: #2C3E50;
+}
+
+#location-inner {
+    background-color: black;
+    position: relative;
+    top: 50px;
+}
+.bilgi {
+    width: 320px;
+    height: 156px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.bilgi h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 2.25rem;
+    color: #fff;
+
+}
+
+.bilgi span {
+    text-align: center;
+    font-size: 1rem;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 450;
+    line-height: 2.25rem;
+    color: #fff;
+
+}
+.bilgi i {
+    color: white;
+    border: 2px solid #fff;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.bilgi i:hover {
+    background-color: white;
+    color: black;
+}
+
+#third-inner {
+    color: #18bc9c;
+}
+
+/*footer kısmı css kodları */
+
+#footer {
+    height: 75px;
+    background-color: #1A252F;
+}
+
+#footer-inner span {
+    display: block;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 25px;
+}
+
+
